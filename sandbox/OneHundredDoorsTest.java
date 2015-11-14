@@ -20,7 +20,7 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertEquals("O", oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1));
+        assertEquals("OC", oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(2));
     }
 
     // TODO: after_the_last_pass_the_state_of_the_doors_should_be_OpenClosedClosed_respectively_if_there_are_three_doors
