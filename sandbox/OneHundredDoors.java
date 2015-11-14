@@ -1,7 +1,7 @@
 
 public class OneHundredDoors {
 
-    public static int answer() {
-        return 6 * 7;
+    public int statesOfDoorsAfterPassingPartialDoors() {
+        return "O";
     }
 }
