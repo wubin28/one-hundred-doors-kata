@@ -5,6 +5,11 @@ public class OneHundredDoorsTest {
 
     @Test
     public void after_the_last_pass_the_state_of_the_door_should_be_Open_if_there_is_only_one_door() {
+        // Given
+        OneHundredDoors oneHundredDoors = new OneHundredDoors();
+
+        // When
+        // Then
         assertEquals("O", oneHundredDoors.afterLastPassStatesOfAllDoorsWhoseAmountIs(1));
     }
 
