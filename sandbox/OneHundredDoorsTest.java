@@ -10,7 +10,7 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertEquals("O", oneHundredDoors.afterLastPassStatesOfAllDoorsWhoseAmountIs(1));
+        assertEquals("O", oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1));
     }
 
     // TODO: after_the_last_pass_the_state_of_the_doors_should_be_OpenClosed_respectively_if_there_are_two_doors

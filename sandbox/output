@@ -1,6 +1,6 @@
 OneHundredDoorsTest.java:13: error: cannot find symbol
-        assertEquals("O", oneHundredDoors.afterLastPassStatesOfAllDoorsWhoseAmountIs(1));
+        assertEquals("O", oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1));
                                          ^
-  symbol:   method afterLastPassStatesOfAllDoorsWhoseAmountIs(int)
+  symbol:   method statesOfDoorsAfterPassingPartialDoors(int)
   location: variable oneHundredDoors of type OneHundredDoors
 1 error
