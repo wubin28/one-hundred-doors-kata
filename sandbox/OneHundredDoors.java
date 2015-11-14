@@ -1,7 +1,7 @@
 
 public class OneHundredDoors {
 
-    public int statesOfDoorsAfterPassingPartialDoors() {
+    public String statesOfDoorsAfterPassingPartialDoors() {
         return "O";
     }
 }
