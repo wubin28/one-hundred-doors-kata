@@ -1,1 +1,1 @@
-public enum D { OPEN, CLOSED }
+public enum D { OPEN, C } // C: CLOSED

@@ -4,21 +4,21 @@ import java.util.Arrays;
 
 public class OneHundredDoors {
 
-    List<D> doors = new ArrayList<Door>(Arrays.asList(
-        D.CLOSED, 
-        D.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED
+    List<D> doors = new ArrayList<D>(Arrays.asList(
+        D.C, 
+        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C
         ));
 
-    public List<Door> statesOfDoorsAfterPassingDoors(int amountOfDoorsPassed) {
+    public List<D> statesOfDoorsAfterPassingDoors(int amountOfDoorsPassed) {
         
         toggleDoor(amountOfDoorsPassed);
 
@@ -29,10 +29,10 @@ public class OneHundredDoors {
         for (int pass = 1; pass <= amountOfDoorsPassed; pass++) {
             for (int door = 1; door <= amountOfDoorsPassed; door++) {
                 if (door % pass == 0) {
-                    if (Door.CLOSED.equals(doors.get(door))){ 
-                        doors.set(door, Door.OPEN);
-                    } else if (Door.OPEN.equals(doors.get(door))) {
-                        doors.set(door, Door.CLOSED);
+                    if (D.C.equals(doors.get(door))){ 
+                        doors.set(door, D.OPEN);
+                    } else if (D.OPEN.equals(doors.get(door))) {
+                        doors.set(door, D.C);
                     }
                 }
             }

@@ -12,7 +12,7 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertArrayEquals(new Door[]{Door.OPEN}, oneHundredDoors.statesOfDoorsAfterPassingDoors(1).toArray());
+        assertArrayEquals(new D[]{D.OPEN}, oneHundredDoors.statesOfDoorsAfterPassingDoors(1).toArray());
     }
 
     @Test
@@ -22,7 +22,7 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertArrayEquals(new Door[]{Door.OPEN, Door.CLOSED}, oneHundredDoors.statesOfDoorsAfterPassingDoors(2).toArray());
+        assertArrayEquals(new D[]{D.OPEN, D.C}, oneHundredDoors.statesOfDoorsAfterPassingDoors(2).toArray());
     }
 
     @Test
@@ -32,7 +32,7 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertArrayEquals(new Door[]{Door.OPEN, Door.CLOSED, Door.CLOSED}, oneHundredDoors.statesOfDoorsAfterPassingDoors(3).toArray());
+        assertArrayEquals(new D[]{D.OPEN, D.C, D.C}, oneHundredDoors.statesOfDoorsAfterPassingDoors(3).toArray());
     }
 
     @Test
@@ -43,17 +43,17 @@ public class OneHundredDoorsTest {
         // When
         // Then
         assertArrayEquals(
-            new Door[]{
-                Door.OPEN, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED,
-                Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-                Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-                Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-                Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED,
-                Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-                Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-                Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-                Door.OPEN, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
-                Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN
+            new D[]{
+                D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+                D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+                D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+                D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+                D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+                D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+                D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+                D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+                D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
+                D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C
             }, oneHundredDoors.statesOfDoorsAfterPassingDoors(100).toArray());
     }
 
