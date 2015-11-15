@@ -1,6 +1,4 @@
-OneHundredDoors.java:44: error: cannot find symbol
-        return convertDoorListToIdsOfOpenedDoors();
-               ^
-  symbol:   method convertDoorListToIdsOfOpenedDoors()
-  location: class OneHundredDoors
+OneHundredDoors.java:50: error: ')' expected
+            if ("O".equals(doors.get(door)) {
+                                           ^
 1 error
