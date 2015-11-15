@@ -4,21 +4,21 @@ import java.util.Arrays;
 
 public class OneHundredDoors {
 
-    List<String> doors = new ArrayList<String>(Arrays.asList(
-        "C", 
-        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C"
+    List<Door> doors = new ArrayList<Door>(Arrays.asList(
+        CLOSED, 
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
         ));
 
-    public List<String> statesOfDoorsAfterPassingDoors(int amountOfDoorsPassed) {
+    public List<Door> statesOfDoorsAfterPassingDoors(int amountOfDoorsPassed) {
         
         toggleDoor(amountOfDoorsPassed);
 
@@ -29,10 +29,10 @@ public class OneHundredDoors {
         for (int pass = 1; pass <= amountOfDoorsPassed; pass++) {
             for (int door = 1; door <= amountOfDoorsPassed; door++) {
                 if (door % pass == 0) {
-                    if ("C".equals(doors.get(door))){ 
-                        doors.set(door, "O");
-                    } else if ("O".equals(doors.get(door))) {
-                        doors.set(door, "C");
+                    if (CLOSED.equals(doors.get(door))){ 
+                        doors.set(door, OPEN);
+                    } else if (OPEN.equals(doors.get(door))) {
+                        doors.set(door, CLOSED);
                     }
                 }
             }
@@ -47,7 +47,7 @@ public class OneHundredDoors {
     private String convertDoorListToIdsOfOpenedDoors(int amountOfDoorsPassed) {
         StringBuilder stringBuilder = new StringBuilder();
         for (int door = 1; door <= amountOfDoorsPassed; door++) {
-            if ("O".equals(doors.get(door))) {
+            if (OPEN.equals(doors.get(door))) {
                 stringBuilder.append(Integer.toString(door));
                 stringBuilder.append("-");
             }

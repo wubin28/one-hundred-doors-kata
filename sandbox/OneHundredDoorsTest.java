@@ -1,5 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class OneHundredDoorsTest {
 
@@ -10,7 +12,7 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertArrayEquals(new String[]{"O"}, oneHundredDoors.statesOfDoorsAfterPassingDoors(1).toArray());
+        assertArrayEquals(new ArrayList<Door>(Arrays.asList(Door.OPEN)), oneHundredDoors.statesOfDoorsAfterPassingDoors(1).toArray());
     }
 
     @Test
@@ -20,7 +22,7 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertArrayEquals(new String[]{"O", "C"}, oneHundredDoors.statesOfDoorsAfterPassingDoors(2).toArray());
+        assertArrayEquals(new ArrayList<Door>(Arrays.asList(Door.OPEN, Door.CLOSED)), oneHundredDoors.statesOfDoorsAfterPassingDoors(2).toArray());
     }
 
     @Test
@@ -30,7 +32,7 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertArrayEquals(new String[]{"O", "C", "C"}, oneHundredDoors.statesOfDoorsAfterPassingDoors(3).toArray());
+        assertArrayEquals(new ArrayList<Door>(Arrays.asList(Door.OPEN, Door.CLOSED, Door.CLOSED)), oneHundredDoors.statesOfDoorsAfterPassingDoors(3).toArray());
     }
 
     @Test
@@ -41,18 +43,18 @@ public class OneHundredDoorsTest {
         // When
         // Then
         assertArrayEquals(
-            new String[]{
-                "O", "C", "C", "O", "C", "C", "C", "C", "O", "C",
-                "C", "C", "C", "C", "C", "O", "C", "C", "C", "C",
-                "C", "C", "C", "C", "O", "C", "C", "C", "C", "C",
-                "C", "C", "C", "C", "C", "O", "C", "C", "C", "C",
-                "C", "C", "C", "C", "C", "C", "C", "C", "O", "C",
-                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "C", "C", "C", "O", "C", "C", "C", "C", "C", "C",
-                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "C", "C", "C", "C", "C", "C", "C", "C", "C", "O"
-            }, oneHundredDoors.statesOfDoorsAfterPassingDoors(100).toArray());
+            new ArrayList<Door>(Arrays.asList(
+                OPEN, CLOSED, CLOSED, OPEN, CLOSED, CLOSED, CLOSED, CLOSED, OPEN, CLOSED,
+                CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, OPEN, CLOSED, CLOSED, CLOSED, CLOSED,
+                CLOSED, CLOSED, CLOSED, CLOSED, OPEN, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+                CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, OPEN, CLOSED, CLOSED, CLOSED, CLOSED,
+                CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, OPEN, CLOSED,
+                CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+                CLOSED, CLOSED, CLOSED, OPEN, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+                CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+                OPEN, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+                CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, OPEN
+            )), oneHundredDoors.statesOfDoorsAfterPassingDoors(100).toArray());
     }
 
     @Test
@@ -65,5 +67,4 @@ public class OneHundredDoorsTest {
         assertEquals("1-4-9-16-25-36-49-64-81-100", oneHundredDoors.idsOfOpenedDoorsAfterPassingDoors(100));
     }
 }
-
 
