@@ -3,11 +3,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class OneHundredDoors {
-    enum Door { OPEN, CLOSED };
 
     List<Door> doors = new ArrayList<Door>(Arrays.asList(
         Door.CLOSED, 
-        Door.CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
         CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
         CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
         CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
