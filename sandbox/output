@@ -1,6 +1,28 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-....
-Time: 0.038
-
-OK (4 tests)
-
+OneHundredDoorsTest.java:59: error: '(' expected
+    public void after_the_last_pass_the_door_ids_of_the_opened_doors_should_be_1-4-9-16-25-36-49-64-81-100_if_passing_100_doors() {
+                                                                                ^
+OneHundredDoorsTest.java:59: error: illegal underscore
+    public void after_the_last_pass_the_door_ids_of_the_opened_doors_should_be_1-4-9-16-25-36-49-64-81-100_if_passing_100_doors() {
+                                                                                                          ^
+OneHundredDoorsTest.java:59: error: invalid method declaration; return type required
+    public void after_the_last_pass_the_door_ids_of_the_opened_doors_should_be_1-4-9-16-25-36-49-64-81-100_if_passing_100_doors() {
+                                                                                                           ^
+OneHundredDoorsTest.java:66: error: invalid method declaration; return type required
+        assertArrayEquals("1-4-9-16-25-36-49-64-81-100", oneHundredDoors.idsOfOpenedDoorsAfterPassingDoors(100));
+        ^
+OneHundredDoorsTest.java:66: error: illegal start of type
+        assertArrayEquals("1-4-9-16-25-36-49-64-81-100", oneHundredDoors.idsOfOpenedDoorsAfterPassingDoors(100));
+                          ^
+OneHundredDoorsTest.java:66: error: <identifier> expected
+        assertArrayEquals("1-4-9-16-25-36-49-64-81-100", oneHundredDoors.idsOfOpenedDoorsAfterPassingDoors(100));
+                                                                                                          ^
+OneHundredDoorsTest.java:66: error: ';' expected
+        assertArrayEquals("1-4-9-16-25-36-49-64-81-100", oneHundredDoors.idsOfOpenedDoorsAfterPassingDoors(100));
+                                                                                                           ^
+OneHundredDoorsTest.java:66: error: illegal start of type
+        assertArrayEquals("1-4-9-16-25-36-49-64-81-100", oneHundredDoors.idsOfOpenedDoorsAfterPassingDoors(100));
+                                                                                                              ^
+OneHundredDoorsTest.java:66: error: <identifier> expected
+        assertArrayEquals("1-4-9-16-25-36-49-64-81-100", oneHundredDoors.idsOfOpenedDoorsAfterPassingDoors(100));
+                                                                                                               ^
+9 errors
