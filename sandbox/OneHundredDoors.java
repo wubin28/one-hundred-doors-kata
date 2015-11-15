@@ -19,19 +19,22 @@ public class OneHundredDoors {
             "C", "C", "C", "C", "C", "C", "C", "C", "C", "C"
             ));
         
+        toggleDoor(amountOfDoorsPassed);
+
+        return doors.subList(1, amountOfDoorsPassed + 1);
+    }
+
+    private void toggleDoor(int amountOfDoorsPassed) {
         if (amountOfDoorsPassed == 1) {
             doors.set(1, "O"); 
-            return doors.subList(1, 2);
         }
         if (amountOfDoorsPassed == 2) {
             doors.set(1, "O"); 
             doors.set(2, "C"); 
-            return doors.subList(1, 3);
         }
         
         doors.set(1, "O"); 
         doors.set(2, "C"); 
         doors.set(3, "C"); 
-        return doors.subList(1, 4);
     }
 }
