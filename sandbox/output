@@ -1,12 +1,12 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
 .E.E.
-Time: 0.034
+Time: 0.035
 There were 2 failures:
 1) after_the_last_pass_the_state_of_the_doors_should_be_OpenClosed_respectively_if_only_passing_two_doors(OneHundredDoorsTest)
 java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
 	at java.util.ArrayList.rangeCheck(ArrayList.java:638)
 	at java.util.ArrayList.set(ArrayList.java:429)
-	at OneHundredDoors.statesOfDoorsAfterPassingPartialDoors(OneHundredDoors.java:14)
+	at OneHundredDoors.statesOfDoorsAfterPassingPartialDoors(OneHundredDoors.java:15)
 	at OneHundredDoorsTest.after_the_last_pass_the_state_of_the_doors_should_be_OpenClosed_respectively_if_only_passing_two_doors(OneHundredDoorsTest.java:23)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
