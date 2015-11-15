@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 public class OneHundredDoorsTest {
 
     @Test
-    public void after_the_last_pass_the_state_of_the_door_should_be_Open_if_only_passing_one_door() {
+    public void after_the_last_pass_the_state_of_the_door_should_be_Open_if_only_passing_1_door() {
         // Given
         OneHundredDoors oneHundredDoors = new OneHundredDoors();
 
@@ -14,7 +14,7 @@ public class OneHundredDoorsTest {
     }
 
     @Test
-    public void after_the_last_pass_the_state_of_the_doors_should_be_OpenClosed_respectively_if_only_passing_two_doors() {
+    public void after_the_last_pass_the_state_of_the_doors_should_be_OpenClosed_respectively_if_only_passing_2_doors() {
         // Given
         OneHundredDoors oneHundredDoors = new OneHundredDoors();
 
@@ -24,12 +24,22 @@ public class OneHundredDoorsTest {
     }
 
     @Test
-    public void after_the_last_pass_the_state_of_the_doors_should_be_OpenClosedClosed_respectively_if_only_passing_three_doors() {
+    public void after_the_last_pass_the_state_of_the_doors_should_be_OpenClosedClosed_respectively_if_only_passing_3_doors() {
         // Given
         OneHundredDoors oneHundredDoors = new OneHundredDoors();
 
         // When
         // Then
         assertArrayEquals(new String[]{"O", "C", "C"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(3).toArray());
+    }
+
+    @Test
+    public void after_the_last_pass_the_state_of_the_doors_should_be_XXX_respectively_if_passing_100_doors() {
+        // Given
+        OneHundredDoors oneHundredDoors = new OneHundredDoors();
+
+        // When
+        // Then
+        assertArrayEquals(new String[]{"O", "C", "C"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(100).toArray());
     }
 }
