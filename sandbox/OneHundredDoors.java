@@ -15,7 +15,7 @@ public class OneHundredDoors {
             "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
             "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
             "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C"
             ));
         
         if (amountOfDoorsPassed == 1) {
