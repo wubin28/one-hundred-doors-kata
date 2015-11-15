@@ -1,22 +1,7 @@
-OneHundredDoors.java:32: error: cannot find symbol
-                    if (CLOSED.equals(doors.get(door))){ 
-                        ^
-  symbol:   variable CLOSED
-  location: class OneHundredDoors
-OneHundredDoors.java:33: error: cannot find symbol
-                        doors.set(door, OPEN);
-                                        ^
-  symbol:   variable OPEN
-  location: class OneHundredDoors
 OneHundredDoors.java:34: error: cannot find symbol
                     } else if (OPEN.equals(doors.get(door))) {
                                ^
   symbol:   variable OPEN
-  location: class OneHundredDoors
-OneHundredDoors.java:35: error: cannot find symbol
-                        doors.set(door, CLOSED);
-                                        ^
-  symbol:   variable CLOSED
   location: class OneHundredDoors
 OneHundredDoors.java:50: error: cannot find symbol
             if (OPEN.equals(doors.get(door))) {
@@ -526,6 +511,21 @@ OneHundredDoorsTest.java:56: error: cannot find symbol
 OneHundredDoorsTest.java:56: error: cannot find symbol
                 CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, OPEN
                         ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoorsTest
+OneHundredDoorsTest.java:56: error: cannot find symbol
+                CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, OPEN
+                                ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoorsTest
+OneHundredDoorsTest.java:56: error: cannot find symbol
+                CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, OPEN
+                                        ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoorsTest
+OneHundredDoorsTest.java:56: error: cannot find symbol
+                CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, OPEN
+                                                ^
   symbol:   variable CLOSED
   location: class OneHundredDoorsTest
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

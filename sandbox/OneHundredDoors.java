@@ -29,10 +29,10 @@ public class OneHundredDoors {
         for (int pass = 1; pass <= amountOfDoorsPassed; pass++) {
             for (int door = 1; door <= amountOfDoorsPassed; door++) {
                 if (door % pass == 0) {
-                    if (CLOSED.equals(doors.get(door))){ 
-                        doors.set(door, OPEN);
+                    if (Door.CLOSED.equals(doors.get(door))){ 
+                        doors.set(door, Door.OPEN);
                     } else if (OPEN.equals(doors.get(door))) {
-                        doors.set(door, CLOSED);
+                        doors.set(door, Door.CLOSED);
                     }
                 }
             }
