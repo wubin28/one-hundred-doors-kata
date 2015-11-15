@@ -52,7 +52,8 @@ public class OneHundredDoors {
                 stringBuilder.append("-");
             }
         }
-        return stringBuilder.toString();
+        String result = stringBuilder.toString();
+        return result.substring(0, result.length() - 1);
     }
 }
 
