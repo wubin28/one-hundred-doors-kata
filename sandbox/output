@@ -1,6 +1,501 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.....
-Time: 0.039
-
-OK (5 tests)
-
+OneHundredDoors.java:7: error: cannot find symbol
+    List<Door> doors = new ArrayList<Door>(Arrays.asList(
+         ^
+  symbol:   class Door
+  location: class OneHundredDoors
+OneHundredDoors.java:21: error: cannot find symbol
+    public List<Door> statesOfDoorsAfterPassingDoors(int amountOfDoorsPassed) {
+                ^
+  symbol:   class Door
+  location: class OneHundredDoors
+OneHundredDoors.java:7: error: cannot find symbol
+    List<Door> doors = new ArrayList<Door>(Arrays.asList(
+                                     ^
+  symbol:   class Door
+  location: class OneHundredDoors
+OneHundredDoors.java:8: error: cannot find symbol
+        Door.CLOSED, 
+        ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:9: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+        ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:9: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                     ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:9: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                  ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:9: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                               ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:9: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                            ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:9: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                         ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:9: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                      ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:9: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                   ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:9: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:9: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                             ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:10: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+        ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:10: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                     ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:10: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                  ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:10: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                               ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:10: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                            ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:10: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                         ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:10: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                      ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:10: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                   ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:10: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:10: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                             ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:11: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+        ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:11: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                     ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:11: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                  ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:11: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                               ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:11: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                            ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:11: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                         ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:11: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                      ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:11: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                   ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:11: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:11: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                             ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:12: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+        ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:12: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                     ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:12: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                  ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:12: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                               ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:12: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                            ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:12: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                         ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:12: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                      ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:12: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                   ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:12: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:12: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                             ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:13: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+        ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:13: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                     ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:13: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                  ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:13: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                               ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:13: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                            ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:13: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                         ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:13: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                      ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:13: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                   ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:13: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:13: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                             ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:14: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+        ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:14: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                     ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:14: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                  ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:14: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                               ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:14: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                            ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:14: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                         ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:14: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                      ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:14: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                   ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:14: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:14: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                             ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:15: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+        ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:15: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                     ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:15: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                  ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:15: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                               ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:15: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                            ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:15: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                         ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:15: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                      ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:15: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                   ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:15: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:15: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                             ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:16: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+        ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:16: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                     ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:16: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                  ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:16: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                               ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:16: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                            ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:16: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                         ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:16: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                      ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:16: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                   ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:16: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:16: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                             ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:17: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+        ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:17: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                     ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:17: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                  ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:17: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                               ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:17: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                            ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:17: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                         ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:17: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                      ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:17: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                   ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:17: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:17: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
+                                                                                                                             ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:18: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED
+        ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:18: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED
+                     ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:18: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED
+                                  ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:18: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED
+                                               ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:18: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED
+                                                            ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:18: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED
+                                                                         ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+100 errors
