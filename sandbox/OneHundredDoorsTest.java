@@ -23,5 +23,5 @@ public class OneHundredDoorsTest {
         assertEquals("OC", oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(2));
     }
 
-    // TODO: after_the_last_pass_the_state_of_the_doors_should_be_OpenClosedClosed_respectively_if_there_are_three_doors
+    // TODO: after_the_last_pass_the_state_of_the_doors_should_be_OpenClosedClosed_respectively_if_only_passing_three_doors
 }
