@@ -44,7 +44,7 @@ public class OneHundredDoorsTest {
         // Then
         assertArrayEquals(
             new Door[]{
-                Door.OPEN, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED,
+                Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED,
                 Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
                 Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
                 Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.OPEN, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
