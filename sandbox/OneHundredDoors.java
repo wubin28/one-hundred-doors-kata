@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class OneHundredDoors {
 
-    List<Door> doors = new ArrayList<Door>(Arrays.asList(
+    List<D> doors = new ArrayList<Door>(Arrays.asList(
         D.CLOSED, 
         D.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,
         Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED,

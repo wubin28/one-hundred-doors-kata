@@ -1,16 +1,11 @@
-OneHundredDoors.java:7: error: cannot find symbol
-    List<Door> doors = new ArrayList<Door>(Arrays.asList(
-         ^
-  symbol:   class Door
-  location: class OneHundredDoors
 OneHundredDoors.java:21: error: cannot find symbol
     public List<Door> statesOfDoorsAfterPassingDoors(int amountOfDoorsPassed) {
                 ^
   symbol:   class Door
   location: class OneHundredDoors
 OneHundredDoors.java:7: error: cannot find symbol
-    List<Door> doors = new ArrayList<Door>(Arrays.asList(
-                                     ^
+    List<D> doors = new ArrayList<Door>(Arrays.asList(
+                                  ^
   symbol:   class Door
   location: class OneHundredDoors
 OneHundredDoors.java:9: error: cannot find symbol
@@ -496,6 +491,11 @@ OneHundredDoors.java:18: error: cannot find symbol
 OneHundredDoors.java:18: error: cannot find symbol
         Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED
                                                                                                    ^
+  symbol:   variable Door
+  location: class OneHundredDoors
+OneHundredDoors.java:18: error: cannot find symbol
+        Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED, Door.CLOSED
+                                                                                                                ^
   symbol:   variable Door
   location: class OneHundredDoors
 100 errors
