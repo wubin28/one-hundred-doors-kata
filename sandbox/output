@@ -1,6 +1,11 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.....
-Time: 0.035
-
-OK (5 tests)
-
+OneHundredDoors.java:43: error: cannot find symbol
+        toogleDoor(amountOfDoorsPassed);
+        ^
+  symbol:   method toogleDoor(int)
+  location: class OneHundredDoors
+OneHundredDoors.java:44: error: cannot find symbol
+        return convertDoorListToIdsOfOpenedDoors();
+               ^
+  symbol:   method convertDoorListToIdsOfOpenedDoors()
+  location: class OneHundredDoors
+2 errors
