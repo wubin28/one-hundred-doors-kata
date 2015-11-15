@@ -56,7 +56,7 @@ public class OneHundredDoorsTest {
     }
 
     @Test
-    public void after_the_last_pass_the_door_ids_of_the_opened_doors_should_be_1-4-9-16-25-36-49-64-81-100_if_passing_100_doors() {
+    public void after_the_last_pass_the_door_ids_of_the_opened_doors_should_be_1_4_9_16_25_36_49_64_81_100_if_passing_100_doors() {
         // Given
         OneHundredDoors oneHundredDoors = new OneHundredDoors();
 
