@@ -34,7 +34,7 @@ public class OneHundredDoorsTest {
     }
 
     @Test
-    public void after_the_last_pass_the_state_of_the_doors_should_be_XXX_respectively_if_passing_100_doors() {
+    public void after_the_last_pass_the_state_of_the_doors_should_be_right_if_passing_100_doors() {
         // Given
         OneHundredDoors oneHundredDoors = new OneHundredDoors();
 
