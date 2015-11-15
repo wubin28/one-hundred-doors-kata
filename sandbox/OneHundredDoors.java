@@ -40,7 +40,8 @@ public class OneHundredDoors {
     }
 
     public String idsOfOpenedDoorsAfterPassingDoors(int amountOfDoorsPassed) {
-        toogleDoor(amountOfDoorsPassed);
+        toggleDoor(amountOfDoorsPassed);
         return convertDoorListToIdsOfOpenedDoors();
     }
+
 }
