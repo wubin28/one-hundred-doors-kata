@@ -1,58 +1,11 @@
-OneHundredDoors.java:8: error: cannot find symbol
+OneHundredDoors.java:4: error: package Door does not exist
+import Door.*;
+^
+OneHundredDoors.java:9: error: cannot find symbol
         CLOSED, 
         ^
   symbol:   variable CLOSED
   location: class OneHundredDoors
-OneHundredDoors.java:9: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
-        ^
-  symbol:   variable CLOSED
-  location: class OneHundredDoors
-OneHundredDoors.java:9: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
-                ^
-  symbol:   variable CLOSED
-  location: class OneHundredDoors
-OneHundredDoors.java:9: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
-                        ^
-  symbol:   variable CLOSED
-  location: class OneHundredDoors
-OneHundredDoors.java:9: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
-                                ^
-  symbol:   variable CLOSED
-  location: class OneHundredDoors
-OneHundredDoors.java:9: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
-                                        ^
-  symbol:   variable CLOSED
-  location: class OneHundredDoors
-OneHundredDoors.java:9: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
-                                                ^
-  symbol:   variable CLOSED
-  location: class OneHundredDoors
-OneHundredDoors.java:9: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
-                                                        ^
-  symbol:   variable CLOSED
-  location: class OneHundredDoors
-OneHundredDoors.java:9: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
-                                                                ^
-  symbol:   variable CLOSED
-  location: class OneHundredDoors
-OneHundredDoors.java:9: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
-                                                                        ^
-  symbol:   variable CLOSED
-  location: class OneHundredDoors
-OneHundredDoors.java:9: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
-                                                                                ^
-  symbol:   variable CLOSED
-  location: class OneHundredDoors
 OneHundredDoors.java:10: error: cannot find symbol
         CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
         ^
@@ -454,48 +407,93 @@ OneHundredDoors.java:17: error: cannot find symbol
   symbol:   variable CLOSED
   location: class OneHundredDoors
 OneHundredDoors.java:18: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
         ^
   symbol:   variable CLOSED
   location: class OneHundredDoors
 OneHundredDoors.java:18: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
                 ^
   symbol:   variable CLOSED
   location: class OneHundredDoors
 OneHundredDoors.java:18: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
                         ^
   symbol:   variable CLOSED
   location: class OneHundredDoors
 OneHundredDoors.java:18: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
                                 ^
   symbol:   variable CLOSED
   location: class OneHundredDoors
 OneHundredDoors.java:18: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
                                         ^
   symbol:   variable CLOSED
   location: class OneHundredDoors
 OneHundredDoors.java:18: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
                                                 ^
   symbol:   variable CLOSED
   location: class OneHundredDoors
 OneHundredDoors.java:18: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
                                                         ^
   symbol:   variable CLOSED
   location: class OneHundredDoors
 OneHundredDoors.java:18: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
                                                                 ^
   symbol:   variable CLOSED
   location: class OneHundredDoors
 OneHundredDoors.java:18: error: cannot find symbol
-        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
                                                                         ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
+OneHundredDoors.java:18: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED,
+                                                                                ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
+OneHundredDoors.java:19: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+        ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
+OneHundredDoors.java:19: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+                ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
+OneHundredDoors.java:19: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+                        ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
+OneHundredDoors.java:19: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+                                ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
+OneHundredDoors.java:19: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+                                        ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
+OneHundredDoors.java:19: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+                                                ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
+OneHundredDoors.java:19: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+                                                        ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
+OneHundredDoors.java:19: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+                                                                ^
   symbol:   variable CLOSED
   location: class OneHundredDoors
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
