@@ -1,1 +1,3 @@
-public enum Door { OPEN, CLOSED }
+public class Door {
+    public enum State { OPEN, CLOSED }
+}

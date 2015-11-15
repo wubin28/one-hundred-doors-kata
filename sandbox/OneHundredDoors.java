@@ -1,4 +1,4 @@
-import static Door.OPEN;
+import static Door.State.OPEN;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
