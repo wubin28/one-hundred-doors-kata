@@ -1,6 +1,11 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-...
-Time: 0.028
-
-OK (3 tests)
-
+OneHundredDoors.java:5: error: cannot find symbol
+        List<String> doors = new ArrayList<String>(amountOfDoorsPassed);
+        ^
+  symbol:   class List
+  location: class OneHundredDoors
+OneHundredDoors.java:5: error: cannot find symbol
+        List<String> doors = new ArrayList<String>(amountOfDoorsPassed);
+                                 ^
+  symbol:   class ArrayList
+  location: class OneHundredDoors
+2 errors
