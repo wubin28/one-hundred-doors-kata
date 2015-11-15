@@ -43,15 +43,15 @@ public class OneHundredDoorsTest {
         assertArrayEquals(
             new String[]{
                 "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C"
+                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C"
             }, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(100).toArray());
     }
 }
