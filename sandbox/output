@@ -1,6 +1,7 @@
-OneHundredDoors.java:4: error: package OneHundredDoors does not exist
-import static OneHundredDoors.Door.*;
-                             ^
+OneHundredDoors.java:4: error: cannot find symbol
+import static Door.*;
+              ^
+  symbol: class Door
 OneHundredDoors.java:10: error: cannot find symbol
         CLOSED, 
         ^
