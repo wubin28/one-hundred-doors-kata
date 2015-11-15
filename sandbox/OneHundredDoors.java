@@ -31,7 +31,7 @@ public class OneHundredDoors {
                 if (door % pass == 0) {
                     if (Door.CLOSED.equals(doors.get(door))){ 
                         doors.set(door, Door.OPEN);
-                    } else if (OPEN.equals(doors.get(door))) {
+                    } else if (Door.OPEN.equals(doors.get(door))) {
                         doors.set(door, Door.CLOSED);
                     }
                 }
