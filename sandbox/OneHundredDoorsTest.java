@@ -40,6 +40,18 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertArrayEquals(null, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(100).toArray());
+        assertArrayEquals(
+            new String[]{
+                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C"
+            }, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(100).toArray());
     }
 }
