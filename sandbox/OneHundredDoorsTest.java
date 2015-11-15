@@ -62,7 +62,7 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertArrayEquals("1-4-9-16-25-36-49-64-81-100", oneHundredDoors.idsOfOpenedDoorsAfterPassingDoors(100));
+        assertEquals("1-4-9-16-25-36-49-64-81-100", oneHundredDoors.idsOfOpenedDoorsAfterPassingDoors(100));
     }
 }
 
