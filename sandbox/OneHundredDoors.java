@@ -18,7 +18,7 @@ public class OneHundredDoors {
         "C", "C", "C", "C", "C", "C", "C", "C", "C", "C"
         ));
 
-    public List<String> statesOfDoorsAfterPassingPartialDoors(int amountOfDoorsPassed) {
+    public List<String> statesOfDoorsAfterPassingDoors(int amountOfDoorsPassed) {
         
         toggleDoor(amountOfDoorsPassed);
 

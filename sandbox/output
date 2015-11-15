@@ -1,26 +1,6 @@
-OneHundredDoorsTest.java:13: error: cannot find symbol
-        assertArrayEquals(new String[]{"O"}, oneHundredDoors.statesOfDoorsAfterPassingDoors(1).toArray());
-                                                            ^
-  symbol:   method statesOfDoorsAfterPassingDoors(int)
-  location: variable oneHundredDoors of type OneHundredDoors
-OneHundredDoorsTest.java:23: error: cannot find symbol
-        assertArrayEquals(new String[]{"O", "C"}, oneHundredDoors.statesOfDoorsAfterPassingDoors(2).toArray());
-                                                                 ^
-  symbol:   method statesOfDoorsAfterPassingDoors(int)
-  location: variable oneHundredDoors of type OneHundredDoors
-OneHundredDoorsTest.java:33: error: cannot find symbol
-        assertArrayEquals(new String[]{"O", "C", "C"}, oneHundredDoors.statesOfDoorsAfterPassingDoors(3).toArray());
-                                                                      ^
-  symbol:   method statesOfDoorsAfterPassingDoors(int)
-  location: variable oneHundredDoors of type OneHundredDoors
-OneHundredDoorsTest.java:55: error: cannot find symbol
-            }, oneHundredDoors.statesOfDoorsAfterPassingDoors(100).toArray());
-                              ^
-  symbol:   method statesOfDoorsAfterPassingDoors(int)
-  location: variable oneHundredDoors of type OneHundredDoors
 OneHundredDoorsTest.java:65: error: cannot find symbol
         assertArrayEquals("1-4-9-16-25-36-49-64-81-100", oneHundredDoors.idsOfOpenedDoorsAfterPassingDoors(100));
                                                                         ^
   symbol:   method idsOfOpenedDoorsAfterPassingDoors(int)
   location: variable oneHundredDoors of type OneHundredDoors
-5 errors
+1 error
