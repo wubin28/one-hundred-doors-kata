@@ -26,16 +26,16 @@ public class OneHundredDoors {
     }
 
     private void toggleDoor(int amountOfDoorsPassed) {
-        if (amountOfDoorsPassed == 1) {
-            doors.set(1, "O"); 
+        for (int pass = 1; pass <= amountOfDoorsPassed; pass++) {
+            for (int door = 1; door <= amountOfDoorsPassed; door++) {
+                if (door % pass == 0) {
+                    if ("C".equals(doors.get(door)){ 
+                        doors.set(door, "O");
+                    } else if ("O".equals(doors.get(door)) {
+                        doors.set(door, "C");
+                    }
+                }
+            }
         }
-        if (amountOfDoorsPassed == 2) {
-            doors.set(1, "O"); 
-            doors.set(2, "C"); 
-        }
-        
-        doors.set(1, "O"); 
-        doors.set(2, "C"); 
-        doors.set(3, "C"); 
     }
 }
