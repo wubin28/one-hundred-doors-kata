@@ -1,7 +1,8 @@
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
-import static Door.*;
+import static Door.OPEN;
+import static Door.CLOSED;
 
 public class OneHundredDoors {
 
