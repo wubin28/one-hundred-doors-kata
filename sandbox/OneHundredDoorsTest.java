@@ -46,7 +46,7 @@ public class OneHundredDoorsTest {
             new D[]{
                 D.OPEN, D.C, D.C, D.OPEN, D.C,       D.C, D.C, D.C, D.OPEN, D.C,
                 D.C, D.C, D.C, D.C, D.C,             D.OPEN, D.C, D.C, D.C, D.C,
-                D.C, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C,
+                D.C, D.C, D.C, D.C, D.OPEN,             D.C, D.C, D.C, D.C, D.C,
                 D.C, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C,
                 D.C, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C,
                 D.C, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C,
