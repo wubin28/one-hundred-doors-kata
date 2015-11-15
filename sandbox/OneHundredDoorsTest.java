@@ -42,7 +42,7 @@ public class OneHundredDoorsTest {
         // Then
         assertArrayEquals(
             new String[]{
-                "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "O", "C", "C", "O", "C", "C", "C", "C", "C", "C",
                 "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
                 "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
                 "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
