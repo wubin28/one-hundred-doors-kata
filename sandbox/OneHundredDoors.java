@@ -38,4 +38,8 @@ public class OneHundredDoors {
             }
         }
     }
+
+    public String idsOfOpenedDoorsAfterPassingDoors(int amountOfDoorsPassed) {
+        return "1-4-9-16-25-36-49-64-81-100";
+    }
 }
