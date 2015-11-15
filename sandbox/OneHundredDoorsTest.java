@@ -52,7 +52,7 @@ public class OneHundredDoorsTest {
                 D.C, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C,
                 D.C, D.C, D.C, D.OPEN, D.C,             D.C, D.C, D.C, D.C, D.C,
                 D.C, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C,
-                D.C, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C,
+                D.OPEN, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C,
                 D.C, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C
             }, oneHundredDoors.statesOfDoorsAfterPassingDoors(100).toArray());
     }
