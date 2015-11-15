@@ -51,7 +51,7 @@ public class OneHundredDoorsTest {
                 "C", "C", "C", "O", "C", "C", "C", "C", "C", "C",
                 "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
                 "O", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C"
+                "C", "C", "C", "C", "C", "C", "C", "C", "C", "O"
             }, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(100).toArray());
     }
 }
