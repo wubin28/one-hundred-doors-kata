@@ -29,6 +29,9 @@ public class OneHundredDoors {
             return doors.subList(1, 3);
         }
         
+        doors.set(1, "O"); 
+        doors.set(2, "C"); 
+        doors.set(3, "C"); 
         return doors.subList(1, 4);
     }
 }
