@@ -1,5 +1,8 @@
 OneHundredDoors.java:1: error: cannot find symbol
-import static Door.*;
+import static Door.OPEN;
               ^
   symbol: class Door
-1 error
+OneHundredDoors.java:1: error: static import only from classes and interfaces
+import static Door.OPEN;
+^
+2 errors
