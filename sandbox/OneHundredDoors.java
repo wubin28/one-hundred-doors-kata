@@ -6,16 +6,16 @@ public class OneHundredDoors {
 
     List<D> doors = new ArrayList<D>(Arrays.asList(
         D.C, 
-        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
-        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
-        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
-        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
-        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
-        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
-        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
-        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
-        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C,
-        D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C, D.C
+        D.C, D.C, D.C, D.C, D.C,         D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C,         D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C,         D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C,         D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C,         D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C,         D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C,         D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C,         D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C,         D.C, D.C, D.C, D.C, D.C,
+        D.C, D.C, D.C, D.C, D.C,         D.C, D.C, D.C, D.C, D.C
         ));
 
     public List<D> statesOfDoorsAfterPassingDoors(int amountOfDoorsPassed) {
