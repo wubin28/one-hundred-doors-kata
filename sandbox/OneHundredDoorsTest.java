@@ -44,7 +44,7 @@ public class OneHundredDoorsTest {
             new String[]{
                 "O", "C", "C", "O", "C", "C", "C", "C", "O", "C",
                 "C", "C", "C", "C", "C", "O", "C", "C", "C", "C",
-                "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+                "C", "C", "C", "C", "O", "C", "C", "C", "C", "C",
                 "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
                 "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
                 "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
