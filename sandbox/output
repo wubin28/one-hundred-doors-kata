@@ -1,11 +1,7 @@
-OneHundredDoors.java:5: error: cannot find symbol
-        List<String> doors = new ArrayList<String>(amountOfDoorsPassed);
-        ^
-  symbol:   class List
-  location: class OneHundredDoors
-OneHundredDoors.java:5: error: cannot find symbol
-        List<String> doors = new ArrayList<String>(amountOfDoorsPassed);
-                                 ^
-  symbol:   class ArrayList
-  location: class OneHundredDoors
+OneHundredDoors.java:1: error: ';' expected
+import java.util.List
+                     ^
+OneHundredDoors.java:2: error: ';' expected
+import java.util.ArrayList
+                          ^
 2 errors
