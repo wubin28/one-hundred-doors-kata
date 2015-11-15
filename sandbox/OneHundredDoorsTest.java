@@ -40,6 +40,6 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertArrayEquals(new String[]{"O", "C", "C"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(100).toArray());
+        assertArrayEquals(null, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(100).toArray());
     }
 }

@@ -1,11 +1,11 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
 ..E..
-Time: 0.042
+Time: 0.043
 There was 1 failure:
 1) after_the_last_pass_the_state_of_the_doors_should_be_XXX_respectively_if_passing_100_doors(OneHundredDoorsTest)
-java.lang.AssertionError: array lengths differed, expected.length=3 actual.length=100
+java.lang.AssertionError: expected array was null
 	at org.junit.Assert.fail(Assert.java:92)
-	at org.junit.internal.ComparisonCriteria.assertArraysAreSameLength(ComparisonCriteria.java:70)
+	at org.junit.internal.ComparisonCriteria.assertArraysAreSameLength(ComparisonCriteria.java:64)
 	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:34)
 	at org.junit.Assert.internalArrayEquals(Assert.java:415)
 	at org.junit.Assert.assertArrayEquals(Assert.java:167)
