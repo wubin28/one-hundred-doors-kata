@@ -47,11 +47,12 @@ public class OneHundredDoors {
     private String convertDoorListToIdsOfOpenedDoors(int amountOfDoorsPassed) {
         StringBuilder stringBuilder = new StringBuilder();
         for (int door = 1; door <= amountOfDoorsPassed; door++) {
-            if ("O".equals(doors.get(door)) {
+            if ("O".equals(doors.get(door))) {
                 stringBuilder.append(Integer.toString(door));
                 stringBuilder.append("-");
             }
         }
+        return stringBuilder.toString();
     }
 }
 
