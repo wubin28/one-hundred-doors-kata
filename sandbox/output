@@ -1,7 +1,6 @@
-OneHundredDoors.java:32: error: ')' expected
-                    if ("C".equals(doors.get(door)){ 
-                                                   ^
-OneHundredDoors.java:34: error: ')' expected
-                    } else if ("O".equals(doors.get(door)) {
-                                                          ^
-2 errors
+JUnit version 4.11-SNAPSHOT-20120416-1530
+...
+Time: 0.037
+
+OK (3 tests)
+

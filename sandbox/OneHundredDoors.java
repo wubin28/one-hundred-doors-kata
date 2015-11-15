@@ -29,9 +29,9 @@ public class OneHundredDoors {
         for (int pass = 1; pass <= amountOfDoorsPassed; pass++) {
             for (int door = 1; door <= amountOfDoorsPassed; door++) {
                 if (door % pass == 0) {
-                    if ("C".equals(doors.get(door)){ 
+                    if ("C".equals(doors.get(door))){ 
                         doors.set(door, "O");
-                    } else if ("O".equals(doors.get(door)) {
+                    } else if ("O".equals(doors.get(door))) {
                         doors.set(door, "C");
                     }
                 }
