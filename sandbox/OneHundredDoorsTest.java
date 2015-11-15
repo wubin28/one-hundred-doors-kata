@@ -53,7 +53,7 @@ public class OneHundredDoorsTest {
                 D.C, D.C, D.C, D.OPEN, D.C,             D.C, D.C, D.C, D.C, D.C,
                 D.C, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C,
                 D.OPEN, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C,
-                D.C, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.C
+                D.C, D.C, D.C, D.C, D.C,             D.C, D.C, D.C, D.C, D.OPEN
             }, oneHundredDoors.statesOfDoorsAfterPassingDoors(100).toArray());
     }
 
