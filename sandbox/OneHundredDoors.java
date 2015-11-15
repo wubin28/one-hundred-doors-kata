@@ -1,10 +1,10 @@
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
-import static Door.OPEN;
-import static Door.CLOSED;
+import static OneHundredDoors.Door.*;
 
 public class OneHundredDoors {
+    enum Door { OPEN, CLOSED };
 
     List<Door> doors = new ArrayList<Door>(Arrays.asList(
         CLOSED, 

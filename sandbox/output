@@ -1,17 +1,6 @@
-OneHundredDoors.java:4: error: cannot find symbol
-import static Door.OPEN;
-              ^
-  symbol: class Door
-OneHundredDoors.java:4: error: static import only from classes and interfaces
-import static Door.OPEN;
-^
-OneHundredDoors.java:5: error: cannot find symbol
-import static Door.CLOSED;
-              ^
-  symbol: class Door
-OneHundredDoors.java:5: error: static import only from classes and interfaces
-import static Door.CLOSED;
-^
+OneHundredDoors.java:4: error: package OneHundredDoors does not exist
+import static OneHundredDoors.Door.*;
+                             ^
 OneHundredDoors.java:10: error: cannot find symbol
         CLOSED, 
         ^
@@ -492,5 +481,19 @@ OneHundredDoors.java:20: error: cannot find symbol
                                         ^
   symbol:   variable CLOSED
   location: class OneHundredDoors
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+OneHundredDoors.java:20: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+                                                ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
+OneHundredDoors.java:20: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+                                                        ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
+OneHundredDoors.java:20: error: cannot find symbol
+        CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED
+                                                                ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoors
 100 errors
