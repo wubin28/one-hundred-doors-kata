@@ -10,7 +10,7 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertEquals("O", oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1));
+        assertEquals({"O"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1).toArray());
     }
 
     @Test
@@ -20,7 +20,7 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertEquals("OC", oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(2));
+        assertEquals({"O", "C"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(2).toArray());
     }
 
     @Test
@@ -30,6 +30,6 @@ public class OneHundredDoorsTest {
 
         // When
         // Then
-        assertEquals("OCC", oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(3));
+        assertEquals({"O", "C", "C"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(3).toArray());
     }
 }

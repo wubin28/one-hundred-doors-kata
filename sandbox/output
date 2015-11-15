@@ -1,6 +1,40 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-...
-Time: 0.03
-
-OK (3 tests)
-
+OneHundredDoorsTest.java:13: error: illegal start of expression
+        assertEquals({"O"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1).toArray());
+                     ^
+OneHundredDoorsTest.java:13: error: ';' expected
+        assertEquals({"O"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1).toArray());
+                      ^
+OneHundredDoorsTest.java:13: error: illegal start of type
+        assertEquals({"O"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1).toArray());
+                          ^
+OneHundredDoorsTest.java:13: error: ';' expected
+        assertEquals({"O"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1).toArray());
+                           ^
+OneHundredDoorsTest.java:13: error: illegal start of type
+        assertEquals({"O"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1).toArray());
+                                           ^
+OneHundredDoorsTest.java:13: error: illegal start of type
+        assertEquals({"O"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1).toArray());
+                                                                                  ^
+OneHundredDoorsTest.java:13: error: ';' expected
+        assertEquals({"O"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(1).toArray());
+                                                                                    ^
+OneHundredDoorsTest.java:17: error: class, interface, or enum expected
+    public void after_the_last_pass_the_state_of_the_doors_should_be_OpenClosed_respectively_if_only_passing_two_doors() {
+           ^
+OneHundredDoorsTest.java:23: error: class, interface, or enum expected
+        assertEquals({"O", "C"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(2).toArray());
+        ^
+OneHundredDoorsTest.java:24: error: class, interface, or enum expected
+    }
+    ^
+OneHundredDoorsTest.java:27: error: class, interface, or enum expected
+    public void after_the_last_pass_the_state_of_the_doors_should_be_OpenClosedClosed_respectively_if_only_passing_three_doors() {
+           ^
+OneHundredDoorsTest.java:33: error: class, interface, or enum expected
+        assertEquals({"O", "C", "C"}, oneHundredDoors.statesOfDoorsAfterPassingPartialDoors(3).toArray());
+        ^
+OneHundredDoorsTest.java:34: error: class, interface, or enum expected
+    }
+    ^
+13 errors

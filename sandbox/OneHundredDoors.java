@@ -4,8 +4,9 @@ import java.util.Arrays;
 
 public class OneHundredDoors {
 
-    public String statesOfDoorsAfterPassingPartialDoors(int amountOfDoorsPassed) {
+    public List<String> statesOfDoorsAfterPassingPartialDoors(int amountOfDoorsPassed) {
         List<String> doors = new ArrayList<String>(Arrays.asList(
+            "C", 
             "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
             "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
             "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
@@ -20,13 +21,14 @@ public class OneHundredDoors {
         
         if (amountOfDoorsPassed == 1) {
             doors.set(1, "O"); 
-            return doors.get(1);
+            return doors.subList(1, 2);
         }
         if (amountOfDoorsPassed == 2) {
             doors.set(1, "O"); 
             doors.set(2, "C"); 
-            return doors.get(1) + doors.get(2);
+            return doors.subList(1, 3);
         }
-        return "OCC";
+        
+        return doors.subList(1, 4);
     }
 }
