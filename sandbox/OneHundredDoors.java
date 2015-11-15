@@ -6,7 +6,16 @@ public class OneHundredDoors {
 
     public String statesOfDoorsAfterPassingPartialDoors(int amountOfDoorsPassed) {
         List<String> doors = new ArrayList<String>(Arrays.asList(
-            "C", "C", "C"
+            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
             ));
         
         if (amountOfDoorsPassed == 1) {
