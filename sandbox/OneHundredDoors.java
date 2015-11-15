@@ -47,7 +47,7 @@ public class OneHundredDoors {
     private String convertDoorListToIdsOfOpenedDoors(int amountOfDoorsPassed) {
         StringBuilder stringBuilder = new StringBuilder();
         for (int door = 1; door <= amountOfDoorsPassed; door++) {
-            if (OPEN.equals(doors.get(door))) {
+            if (Door.OPEN.equals(doors.get(door))) {
                 stringBuilder.append(Integer.toString(door));
                 stringBuilder.append("-");
             }

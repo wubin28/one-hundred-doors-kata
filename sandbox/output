@@ -1,8 +1,3 @@
-OneHundredDoors.java:50: error: cannot find symbol
-            if (OPEN.equals(doors.get(door))) {
-                ^
-  symbol:   variable OPEN
-  location: class OneHundredDoors
 OneHundredDoorsTest.java:15: error: no suitable method found for assertArrayEquals(ArrayList<Door>,Object[])
         assertArrayEquals(new ArrayList<Door>(Arrays.asList(Door.OPEN)), oneHundredDoors.statesOfDoorsAfterPassingDoors(1).toArray());
         ^
@@ -526,6 +521,11 @@ OneHundredDoorsTest.java:56: error: cannot find symbol
 OneHundredDoorsTest.java:56: error: cannot find symbol
                 CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, OPEN
                                                         ^
+  symbol:   variable CLOSED
+  location: class OneHundredDoorsTest
+OneHundredDoorsTest.java:56: error: cannot find symbol
+                CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, CLOSED, OPEN
+                                                                ^
   symbol:   variable CLOSED
   location: class OneHundredDoorsTest
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
