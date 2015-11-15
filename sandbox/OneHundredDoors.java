@@ -4,20 +4,21 @@ import java.util.Arrays;
 
 public class OneHundredDoors {
 
+    List<String> doors = new ArrayList<String>(Arrays.asList(
+        "C", 
+        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
+        "C", "C", "C", "C", "C", "C", "C", "C", "C", "C"
+        ));
+
     public List<String> statesOfDoorsAfterPassingPartialDoors(int amountOfDoorsPassed) {
-        List<String> doors = new ArrayList<String>(Arrays.asList(
-            "C", 
-            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C",
-            "C", "C", "C", "C", "C", "C", "C", "C", "C", "C"
-            ));
         
         toggleDoor(amountOfDoorsPassed);
 
